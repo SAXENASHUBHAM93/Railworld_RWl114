@@ -1,0 +1,17 @@
+package com.railworld;
+
+public class Person {
+
+	
+		// TODO Auto-generated method stub
+		
+		private String name;
+		private int age;
+		private String gender;
+		private String address;
+		
+		
+
+	
+
+}

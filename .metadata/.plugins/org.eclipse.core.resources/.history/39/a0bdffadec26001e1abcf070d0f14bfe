@@ -1,0 +1,73 @@
+package com.railworld.assignment;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner s = new Scanner(System.in);
+		 
+		Person s2 = new Student();
+		System.out.println("Enter the person name : ");
+		s2.setNamep(s.next());
+		System.out.println("Enter the person age : ");
+		s2.setAgep(s.nextInt());
+		System.out.println("Enter the person gender : ");
+		String genderType1 = s.next();
+		Gender gender1 = Gender.valueOf(genderType1);
+		s2.setGenderp(gender1);
+		
+		System.out.println("Student name: "+ s2.getNamep());
+		System.out.println("Student age: "+ s2.getAgep());
+		System.out.println("Student gender: "+ s2.getGenderp());
+		
+		s2.talking();
+	
+		
+		
+		
+		
+
+
+		
+//		Using downcasting method
+		
+		
+		Student s1 = (Student) s2;
+		
+		System.out.println("Enter the down casted Student id: ");
+		s1.setId(s.nextInt());
+		System.out.println("Enter the down casted Student name: ");
+		s1.setName(s.next());
+		System.out.println("Enter the down casted Student age: ");
+		s1.setAge(s.nextInt());
+		System.out.println("Enter the down casted Student marks: ");
+		s1.setMarks(s.nextInt());
+		System.out.println("Enter the down casted Student gender: ");
+		String genderType2 = s.next();
+		Gender gender2= Gender.valueOf(genderType2);
+		s1.setGender(gender2);
+		
+		
+		System.out.println("Student Down casted id: "+ s1.getId());
+		System.out.println("Student Down casted name: "+ s1.getName());
+		System.out.println("Student Down casted age: "+ s1.getAge());
+		System.out.println("Student Down casted marks: "+ s1.getMarks());
+		System.out.println("Student Down casted gender: "+ s1.getGender());
+		
+		s1.eat();
+		s1.fighgt();
+		s1.smile();
+		s1.walk();
+		
+		
+
+		
+		
+		
+	
+		
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;Emplyee&apos; to &apos;com.railworld&apos;&#x0D;&#x0A;- Original project: &apos;Emplyee&apos;&#x0D;&#x0A;- Original element: &apos;Emplyee/src/Emplyee&apos;&#x0D;&#x0A;- Renamed element: &apos;Emplyee/src/com.railworld&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;Emplyee&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;Emplyee" name="com.railworld" qualified="false" references="true" stamp="1689588788467" textual="false" version="1.0"/>
+</session>

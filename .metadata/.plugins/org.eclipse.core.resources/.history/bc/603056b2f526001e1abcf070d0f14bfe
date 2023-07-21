@@ -1,0 +1,23 @@
+package com.railworld;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+//		Arraylist<Person> person = new Arraylist<>();
+//		
+//		person.add (new person("ram",20,"male","raipur"));
+//		person add(new person("shubham",22,"male","bilashpur"));
+//		person add(new person("syam",24,"male","durg"));
+//		person add(new person("ramsarup",26,"male",bhilai))
+		
+		
+		ArrayList<Person>  person = new Arraylist<>();
+
+	}
+
+}
